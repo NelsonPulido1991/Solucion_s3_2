@@ -1,0 +1,198 @@
+
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ pwd
+/c/Users/nelso
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ ls
+'3D Objects'/           'Entorno de red'@         NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        Sti_Trace.log
+ AppData/                Favorites/               NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   Tracing/
+'Application Data'/      Impresoras@              NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms   Videos/
+'Configuración local'@   IntelGraphicsProfiles/   OneDrive/                                                                                      application/
+ Contacts/               Links/                   Plantillas@                                                                                    netsh
+ Cookies@               'Menú Inicio'@            Reciente@                                                                                      ntuser.dat.LOG1
+'Datos de programa'@    'Mis documentos'@        'Saved Games'/                                                                                  ntuser.dat.LOG2
+ Documents/              Music/                   Searches/                                                                                      ntuser.ini
+ Downloads/              NTUSER.DAT               SendTo@
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ cd Onedrive
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive (master)
+$ ls
+ AppData/  'Datos adjuntos de correo electrónico'/   Desktop/   Documentos/   Imágenes/   Pictures/   Público/   Vídeos/   desktop.ini
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive (master)
+$ cd Desktop/Ejercicios
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios (master)
+$ mkdir "Ejercicio 2s3"
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios (master)
+$ cd Ejercicio 2s3
+bash: cd: too many arguments
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios (master)
+$ ls
+'Ejercicio 2s3'/  'Ejercicio 3'/  'Ejercicio 3.zip'   Ejercicio1/
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios (master)
+$ cd 'Ejercicio 2s3'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git clone <git@github.com:NelsonPulido1991/aspirantes-mir-ejercicioi-3.git>
+bash: syntax error near unexpected token `newline'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git clone C:/Users/nelso/OneDrive/Desktop/Ejercicios/.git/nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios/Ejercicio1 (master)
+bash: syntax error near unexpected token `('
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git clone (C:/Users/nelso/OneDrive/Desktop/Ejercicios/.git/
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios/Ejercicio1 (master))
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git clone C:/Users/nelso/OneDrive/Desktop/Ejercicios/.git/
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios/Ejercicio1 (master)
+Cloning into 'Ejercicios'...
+done.
+bash: syntax error near unexpected token `('
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git checkout -b nueva-funcionalidad
+Switched to a new branch 'nueva-funcionalidad'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (nueva-funcionalidad)
+$ touch nuevo-archivo.txt
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (nueva-funcionalidad)
+$ git add nuevo-archivo.txt
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (nueva-funcionalidad)
+$ git commit -m "Agregado nuevo archivo para la nueva funcionalidad"
+[nueva-funcionalidad fa603ef] Agregado nuevo archivo para la nueva funcionalidad
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Ejercicio 2s3/nuevo-archivo.txt
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (nueva-funcionalidad)
+$ git checkout master
+Switched to branch 'master'
+D       .gitignore
+D       GENERAR LLAVE SSH.txt
+D       README.md
+D       index.html
+D       solucion ejercicio bonus.txt
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ cat nuevo-archivo.txt
+cat: nuevo-archivo.txt: No such file or directory
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git merge nueva-funcionalidad
+error: The following untracked working tree files would be overwritten by merge:
+        Ejercicio 2s3/nuevo-archivo.txt
+Please move or remove them before you merge.
+Aborting
+Updating 7417df7..fa603ef
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ cat nuevo-archivo.txt
+Se agrega algo de contenido al este archivo
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ ^[[200~
+bash: $'\E[200~': command not found
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git remote add origin git@github.com:NelsonPulido1991/Solucion_s3_2.git
+error: remote origin already exists.
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git remote add origin2 git@github.com:NelsonPulido1991/Solucion_s3_2.git
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git push -u origin2 main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:NelsonPulido1991/Solucion_s3_2.git'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../.gitignore
+        deleted:    ../GENERAR LLAVE SSH.txt
+        deleted:    ../README.md
+        deleted:    ../index.html
+        deleted:    ../solucion ejercicio bonus.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../Ejercicio 3.zip
+        ../Ejercicio 3/
+        ../Ejercicio1/solucion ejercicio 2 bonus.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git add .
+warning: adding embedded git repository: Ejercicio 2s3/Ejercicios
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Ejercicio 2s3/Ejercicios
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Ejercicio 2s3/Ejercicios
+hint:
+hint: See "git help submodule" for more information.
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git push -u origin2 main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:NelsonPulido1991/Solucion_s3_2.git'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ echo "# Solucion_s3_2" >> README.md
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git init
+Initialized empty Git repository in C:/Users/nelso/OneDrive/Desktop/Ejercicios/Ejercicio 2s3/.git/
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git commit -m "first commit"
+[master (root-commit) 21ee01b] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (master)
+$ git branch -M main
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (main)
+$ git remote add origin git@github.com:NelsonPulido1991/Solucion_s3_2.git
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:NelsonPulido1991/Solucion_s3_2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/Onedrive/Desktop/Ejercicios/Ejercicio 2s3 (main)
+$
